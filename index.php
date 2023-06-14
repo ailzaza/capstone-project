@@ -24,7 +24,7 @@
             <label for=""> Confirm password : </label><br>
             <input type="password" name="conpass"><br><br>
 
-            <button type="submit" name="sub"> Sign Up</button>
+            <button type="submit" name="sub"> Sign Up</button> <a href="login.php">Log In</a>
          </form>
 
          <?php
