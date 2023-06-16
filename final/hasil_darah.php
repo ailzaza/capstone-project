@@ -45,6 +45,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DarahKu</title>
     <link rel="stylesheet" href="../assets/css/GlobalStyle.css">
+    <!-- Include Bootstrap CSS -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
+    />
 </head>
 <body>
     <nav>
