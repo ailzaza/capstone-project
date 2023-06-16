@@ -8,7 +8,7 @@ Website portofolio sederhana dengan menggunakan HTML, CSS dan Javascript
 Setelah baris 7, sisipkan kode berikut ini. Jangan lupa pastikan file script.js sudah ditambahkan di folder yang kamu punya
 
 ```html
-<script src="script.js" defer></script>
+<script src="assets/js/script.js" defer></script>
 ```
 
 Setelah baris 13, dan sebelum baris 14 sisipkan kode di bawah ini 
