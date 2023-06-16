@@ -21,7 +21,7 @@ body {
     font-weight: 800;
     float: left;
     font-family: courier;
-    color: #364f6b;
+    color: #ffffff;
 }
 
 .menu {
@@ -36,9 +36,9 @@ nav {
     position: sticky;
     position: -webkit-sticky; 
     top: 0;
-    background: #FFFFFF;
+    background: #CD1818;
     z-index: 1;
-    border-bottom:1px solid #364f6b;
+    border-bottom:1px solid #ffffff;
 }
 
 nav ul {
@@ -53,7 +53,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     text-align: center;
     padding: 0px 16px 0px 16px;
@@ -79,7 +79,7 @@ section {
     font-size: 20px;
     font-weight: bold;
     font-family: 'comic sans ms';
-    color: #364f6b;
+    color: #000000;
 }
 
 h2 {
@@ -87,13 +87,13 @@ h2 {
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
-    color: #364f6b;
+    color: #000000;
     width: 100%;
     line-height: 50px;
 }
 
 a.tbl-biru {
-    background: #3f72af;
+    background: #CD1818;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
@@ -154,7 +154,7 @@ p {
     font-weight: 800;
     font-size: 25px;
     text-align: center;
-    color: #364f6b;
+    color: #000000;
 }
 
 .partner-list {
@@ -195,7 +195,7 @@ h3 {
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
-    color: #364f6b;
+    color: #000000;
     width: 100%;
     line-height: 50px;
 }
