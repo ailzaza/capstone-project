@@ -1,6 +1,6 @@
 /* Set background gradient and center content vertically and horizontally */
 body {
-  background: linear-gradient(135deg, #2980b9, #2c3e50);
+  background: linear-gradient(135deg, #CD1818, #ffffff);
   display: flex;
   justify-content: center;
   align-items: center;
