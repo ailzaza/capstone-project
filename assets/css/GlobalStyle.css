@@ -21,7 +21,7 @@ body {
     font-weight: 800;
     float: left;
     font-family: courier;
-    color: #ffffff;
+    color: #364f6b;
 }
 
 .menu {
@@ -36,7 +36,7 @@ nav {
     position: sticky;
     position: -webkit-sticky; 
     top: 0;
-    background: #CD1818;
+    background: #fb0202;
     z-index: 1;
     border-bottom:1px solid #e68c0e;
 }
@@ -53,7 +53,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(255, 253, 253);
+    color: black;
     font-weight: bold;
     text-align: center;
     padding: 0px 16px 0px 16px;
@@ -79,7 +79,7 @@ section {
     font-size: 20px;
     font-weight: bold;
     font-family: 'comic sans ms';
-    color: #000000;
+    color: #364f6b;
 }
 
 h2 {
@@ -87,13 +87,13 @@ h2 {
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
-    color: #000000;
+    color: #364f6b;
     width: 100%;
     line-height: 50px;
 }
 
 a.tbl-biru {
-    background: #CD1818;
+    background: #3f72af;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
@@ -154,7 +154,7 @@ p {
     font-weight: 800;
     font-size: 25px;
     text-align: center;
-    color: #000000;
+    color: #364f6b;
 }
 
 .partner-list {
@@ -195,9 +195,20 @@ h3 {
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
-    color: #000000;
+    color: #364f6b;
     width: 100%;
     line-height: 50px;
+}
+
+.gbr-card {
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
+}
+
+.card-footer{
+    background: transparent;
+    border: 0px;
 }
 
 #copyright {
