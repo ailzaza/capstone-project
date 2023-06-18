@@ -44,6 +44,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DarahKu</title>
+    <link rel="stylesheet" href="../assets/css/hasildarah.css">
     <link rel="stylesheet" href="../assets/css/GlobalStyle.css">
     <!-- Include Bootstrap CSS -->
     <link
