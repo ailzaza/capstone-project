@@ -53,15 +53,18 @@ function limit_text($text, $limit) {
             $image = $artikel->image;   
             
         ?> 
-            <div class="col-sm-4 mb-3 mb-sm-0 my-4">
+            <div class="col-sm-4 mb-3 mb-sm-0 my-4 d-flex">
                 <div class="card">
                     <input type="hidden" value="<?= $artikel->id ?>">
-                    <img src="<?= $image ?>" class="card-img-top" alt="...">
+                    <img src="<?= $image ?>" class="gbr-card" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><?= $judul ?></h5>
                         <p class="card-text"><?= limit_text($summary, 20) ?></p>
-                        <a href="<?= $artikel->link ?>" class="btn btn-primary">selengkapnya</a>
+                        
                     </div>
+                    <div class="card-footer">
+                    <a href="<?= $artikel->link ?>" class="btn btn-primary">selengkapnya</a>
+                    </div> 
                 </div>
             </div>
         <?php } ?>
