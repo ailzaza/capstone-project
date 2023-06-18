@@ -28,7 +28,7 @@
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#artikelcekdarah">Artikel</a></li>
-                    <li><a href="#cek_darah.php">Cek Darah Mu</a></li>
+                    <li><a href="cek_darah.php">Cek Darah Mu</a></li>
                     <li><a href="#tutors">Our Team</a></li>
                 </ul>
             </div>
@@ -52,7 +52,7 @@
             <div class="kolom">
                 <h2>Artikel</h2>
                 <p>Artikel kesehatan yang kami tawarkan akan membantu anda untuk mendapatkan informasi mengenai kesehatan</p>
-                <p><a href="artikel.php" class="tbl-biru">Baca Artikel</a></p>
+                <p><a href="artikel1.php" class="tbl-biru">Baca Artikel</a></p>
             </div>
             <div class="kolom">
                 <h2>Cek DarahMu</h2>
@@ -71,7 +71,7 @@
 
                 <div class="tutor-list">
                     <div class="kartu-tutor">
-                        <a href="https://www.linkedin.com/in/firdaa-nur-syahrani-46b988220/">
+                        <a href="http://www.linkedin.com/in/ailza-zandra-05813021b">
                             <img src='../assets/img/ailzaa.png' alt="Ailza Zandra">
                           </a>
                         <p>Ailza Zandra</p>
@@ -79,19 +79,19 @@
                     <div class="kartu-tutor">
                         <a href="https://www.linkedin.com/in/firdaa-nur-syahrani-46b988220/">
                             <img src='../assets/img/firdaa.png' alt="Firda Nur Syahrani">
-                          </a>
+                            </a>
                         <p>Firda Nur Syahrani </p>
                     </div>
                     <div class="kartu-tutor">
-                        <a href="https://www.linkedin.com/in/firdaa-nur-syahrani-46b988220/">
+                        <a href="https://www.linkedin.com/in/firdaa-nur-syahrani-46b988220//">
                             <img src='../assets/img/krismaa.png' alt="Krismawati">
-                          </a>
+                            </a>
                         <p>Krismawati</p>
                     </div>
                     <div class="kartu-tutor">
-                        <a href="https://www.linkedin.com/in/firdaa-nur-syahrani-46b988220/">
+                        <a href="https://www.linkedin.com/in/rizky-dwi-tiarto">
                             <img src='../assets/img/rizkyy.png' alt="Rizky Dwi Tiarto">
-                          </a>
+                            </a>
                         <p>Rizky Dwi Tiarto</p>
                     </div>
                 </div>
