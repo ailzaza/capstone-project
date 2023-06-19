@@ -38,7 +38,6 @@ function limit_text($text, $limit) {
                         <li><a href="dashboard.php">Home</a></li>
                         <li><a href="artikel1.php">Artikel</a></li>
                         <li><a href="cek_darah.php">Cek Darah Mu</a></li>
-                        <li><a href="tutors">Our Team</a></li>
                     </ul>
                 </div>
             </div>
