@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 16, 2023 at 07:36 PM
+-- Generation Time: Jun 19, 2023 at 06:36 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -35,16 +35,6 @@ CREATE TABLE `user_details` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `user_details`
---
-
-INSERT INTO `user_details` (`sign_id`, `full_name`, `user_name`, `password`) VALUES
-(1, 'ailje', 'ailjee', 'ailjee'),
-(2, 'ailzay', 'ailzaa', 'ailzaa'),
-(3, 'ayilza', 'ayilza', 'ayilza'),
-(4, 'ahmad', 'ahmadd', 'ahmadd');
-
---
 -- Indexes for dumped tables
 --
 
@@ -63,7 +53,7 @@ ALTER TABLE `user_details`
 -- AUTO_INCREMENT for table `user_details`
 --
 ALTER TABLE `user_details`
-  MODIFY `sign_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `sign_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
