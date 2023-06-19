@@ -4,18 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Include Bootstrap CSS -->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
-    />
     <title>Login</title>
+    <link rel="stylesheet" href="../assets/css/login.css">
+
 </head>
 <body>
       <div style="display:flex; align-items:center; justify-content:center; height:100vh">
-       <div>
-         <h1>Login.</h1>
-         <form method="POST">
+        <div>
+          <h1>Login.</h1>
+          <form method="POST">
             
 
             <label for="">Enter username : </label><br>
@@ -26,10 +23,10 @@
 
           
             <button type="submit" name="sub">Log in </button> <a href="index.php">Sign Up</a>
-         </form>
+          </form>
 
-         <?php
-           if(isset($_POST['sub'])){
+          <?php
+            if(isset($_POST['sub'])){
             require 'partials/_dbcon.php'; //Create a seperate db connection file and link it
             
             $getusername = $_POST['getusername'];
@@ -49,10 +46,10 @@
                 $_SESSION['sendusername'] = $hasilLogin['full_name'];
                 header("location: dashboard.php");  //Replace dashboard.php with your next page
             }
-           }
-         ?>
+            }
+          ?>
 
-       </div>
+        </div>
       </div>
 </body>
 </html>
