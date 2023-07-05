@@ -4,63 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <!-- Include Bootstrap CSS -->
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css"
-    />
-    <title>Sign up</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-      <div style="display:flex; align-items:center; justify-content:center; height:100vh">
-       <div>
-         <h1>Sign up.</h1>
-         <form method="POST">
-            <label for=""> Enter your name : </label><br>
-            <input type="text" name="getname"><br>
+    <div class="container">
+        <h1>Login</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <form action="loginAdmin.php" method="POST">
+                    <input type="hidden" name="accountType" value="admin">
+                    <button type="submit" class="btn btn-primary btn-block">Admin<a href="signupAdmin.php"></a></button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <form action="loginuser.php" method="POST">
+                    <input type="hidden" name="accountType" value="user">
+                    <button type="submit" class="btn btn-primary btn-block">User<a href="signupUser.php"></a></button>
+                </form>
+            </div>
+        </div>
+    </div>
 
-            <label for=""> Enter username : </label><br>
-            <input type="text" name="getusername"><br>
-
-            <label for=""> Enter password : </label><br>
-            <input type="password" name="getpass"><br>
-
-            <label for=""> Confirm password : </label><br>
-            <input type="password" name="conpass"><br><br>
-
-            <button type="submit" name="sub"> Sign Up</button> <a href="login.php">Log In</a>
-         </form>
-
-         <?php
-           if(isset($_POST['sub'])){
-            require 'partials/_dbcon.php';
-            $getname=$_POST['getname'];
-            $getusername=$_POST['getusername'];
-            $getpass=$_POST['getpass'];
-            $conpass=$_POST['conpass'];
-
-            $sql="select user_name from user_details where user_name = '$getusername'";
-            $sqlres=mysqli_query($connect, $sql);
-            $rowcount=mysqli_num_rows($sqlres);
-
-            if($rowcount !=0){
-                echo "User name is not available. Try another one";
-            }
-            if($getpass != $conpass){
-                echo "Confirm password properly";
-            }
-            if(($rowcount ==0) && ($getpass == $conpass)){
-                echo "You have successfully signed up.";
-                $gotologin = "<a href='login.php'>Log in.</a>";
-                echo $gotologin;
-
-                $sql="insert into user_details (full_name, user_name, password) values ('$getname','$getusername','$getpass')";
-                $sqlres=mysqli_query($connect, $sql);
-            }
-           }
-         ?>
-       </div>
-      </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

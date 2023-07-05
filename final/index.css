@@ -1,0 +1,42 @@
+/* index.css */
+
+body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    margin-top: 100px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-6 {
+    margin: 10px;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.btn-block {
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
