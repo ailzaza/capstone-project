@@ -29,19 +29,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html>
 <head>
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
 
 </head>
 <body>
-    <h2>Login</h2>
-    <?php if (isset($error)) : ?>
-        <p><?php echo $error; ?></p>
-    <?php endif; ?>
-    <form method="POST" action="">
-        <input type="text" name="username" placeholder="Username" required><br>
-        <input type="password" name="password" placeholder="Password" required><br>
-        <button type="submit">Login</button>
-    </form>
-    <p>Belum memiliki akun? <a href="signup.php">Sign Up</a></p>
+    <div class="container">
+
+        <h2>Login</h2>
+        <?php if (isset($error)) : ?>
+            <p><?php echo $error; ?></p>
+            <?php endif; ?>
+            
+            <form method="POST" class="form_isi" action="">
+                <input type="text" name="username" placeholder="Username" required><br>
+                <input type="password" name="password" placeholder="Password" required><br>
+                <button type="submit">Login</button>
+            </class=form>
+            <p>Belum memiliki akun? <a href="signup.php">Sign Up</a></p>
+        </div>
+
 </body>
 </html>
