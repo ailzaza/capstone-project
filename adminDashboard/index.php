@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['username'])) {
+    header('Location: ../loginAdmin.php');
+    exit();
+}
+
+$username = $_SESSION['username'];
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +23,10 @@
 </head>
 <body>
     <h1>Dashboard Admin</h1>
+    <h2>Selamat datang, <?php echo $username; ?></h2>
+    <form method="POST" action="logout.php">
+        <button type="submit">Logout</button>
+    </form>
     <a class="button" href="create.php">Tambah Artikel</a>
     <a class="button" href="viewuser.php">Data Pengguna</a>
     <br><br>
