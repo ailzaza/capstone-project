@@ -31,20 +31,23 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <html>
 <head>
     <title>Sign Up</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
 
 </head>
 <body>
-    <h2>Sing Up</h2>
-    <?php if (isset($error)) : ?>
-        <p><?php echo $error; ?></p>
-    <?php endif; ?>
-    <form method="POST" action="">
-        <input type="text" name="username" placeholder="Username" required><br>
-        <input type="password" name="password" placeholder="Password" required><br>
-        <input type="password" name="confirm_password" placeholder="Konfirmasi Password" required><br>
-        <button type="submit">Sign Up</button>
-    </form>
-    <p>Sudah memiliki akun? <a href="login.php">Login</a></p>
+    <div class="container">
+
+        <h2>Sign Up</h2>
+        <?php if (isset($error)) : ?>
+            <p><?php echo $error; ?></p>
+            <?php endif; ?>
+            <form method="POST" class="form_isi" action="">
+                <input type="text" name="username" placeholder="Username" required><br>
+                <input type="password" name="password" placeholder="Password" required><br>
+                <input type="password" name="confirm_password" placeholder="Konfirmasi Password" required><br>
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Sudah memiliki akun? <a href="login.php">Login</a></p>
+        </div>
 </body>
 </html>
